@@ -1,10 +1,13 @@
 # Projetos HTML + CSS
 
-## Screenshots
+## Projeto 1
 
-![Projeto 1](./img-readme/projeto-1)
-![Projeto Extra](./img-readme/projeto-extra)
+![Projeto 1](img-readme/projeto-1.png)
 
-## Referência
+## Projeto Extra
+
+![Projeto Extra](img-readme/projeto-extra.png)
+
+### Referência
 
  - [Rocketseat](https://www.rocketseat.com.br)
