@@ -2,17 +2,15 @@
 
 ## Projeto 1
 
-<<<<<<< HEAD
-![Projeto 1](./img-readme/projeto-1)
-![Projeto Extra](./img-readme/projeto-extra)
-![Projeto 2](./img-readme/projeto-2)
-=======
-![Projeto 1](img-readme/projeto-1.png)
->>>>>>> 59d3b8a5b989b93706fb80476b49a89e2d012815
+![Projeto 1](./img-readme/projeto-1.png)
 
 ## Projeto Extra
 
 ![Projeto Extra](img-readme/projeto-extra.png)
+
+## Projeto 2
+
+![Projeto 2](./img-readme/projeto-2.png)
 
 ### Referência
 
