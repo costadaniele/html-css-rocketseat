@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --green: #89C5CC;
+    --gray: #7D7987;
+    --green-100: #69B99D;
+    --white: #F9F9F9;
+    --blue: #1F1534;
+}
+
+.balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(257, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+
+#container {
+    width: 1000px;
+    margin: 65px auto 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    color: var(--gray);
+    font-weight: regular;
+    font-size: 18px; 
+    opacity: 0.5;
+}
+
+nav ul li a:hover {
+    color: var(--blue);
+    font-weight: bold;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main h1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    color: var(--black);
+    font-weight: normal;
+    margin-bottom: 40px;
+    width: 490px;
+}
+
+main h1 span {
+    font-weight: bold;
+    color: var(--green);
+}
+
+main p {
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal;    
+}
+
+main .left button {
+    margin-top: 40px;
+}
+
+button {
+    border: none;
+    background: var(--green-100);
+    color: var(--white);
+    font-family: "DM Sans", sans-serif;
+    width: 179px;
+    height: 56px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--gray);
+}
