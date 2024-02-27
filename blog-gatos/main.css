@@ -20,8 +20,6 @@ input {
     font-family: 'Mulish', sans-serif;
 }
 
-
-
 #container>header {
     background-color: #387E96;
     display: flex;
@@ -31,13 +29,12 @@ input {
     gap: 2.6rem;
 }
 
-
 #container>main {
     display: flex;
     /* margin-right: 3.4rem; */
     background-color: #F4FCFF;
     padding: 3.1rem 2.2rem;
-    max-width: 43rem;
+    /* max-width: 43rem; */
     margin-inline: auto;
     box-sizing: content-box;
     display: flex;
@@ -47,12 +44,13 @@ input {
 
 .content>img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .title-action {
     margin-bottom: 3.1rem;
-    margin-left: 2.2rem;
-    margin-right: 6.6rem;
+    /* margin-left: 2.2rem;
+    margin-right: 6.6rem; */
 }
 
 .title-action .buttons {
@@ -67,9 +65,7 @@ input {
     border-radius: 50%;
     background-color: #387E96;
     align-items: center;
-    
 }
-
 
 main h1 {
     font-size: 2.4rem;
